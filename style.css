@@ -8,6 +8,7 @@ nav {
     background-color: #000;
     position: fixed;
     width: 100%;
+    z-index: 5;
 }
 
 nav ul {
@@ -67,4 +68,81 @@ nav li {
     padding: 20px 0 20px 0;
     font-size: 24px;
     border-color: 2px solid orange;
+    border-radius: 5px;
+
+}
+
+.intro{
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 48%;
+    text-align: center;
+    font-size: 25px;
+    top: 480px;
+    position: relative;
+    left: 30%;
+    border-color: 2px solid orange;
+    padding: 20px 0 20px 0;
+    border-radius: 5px;
+}
+
+.paragraph {
+    font-size: 22px;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p1 {
+    color: rgb(214, 213, 196);
+    position: relative;
+    top: 100px;
+    left: 5%;
+}
+
+#p2 {
+    color:rgb(205, 85, 67);
+    background-color: rgba(214, 213, 196, 0.651);
+    border: 2px solid rgb(205, 85, 67);
+    position: relative;
+    top: 300px;
+    left: 60%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:700px) {
+    .header {
+        width: 80%;
+    }
+    rgb(214, 213, 196)
+    #p1 {
+        width: 80%;
+        background-color: ;
+        border: 2px solid rgb(205, 85, 67);
+    }
+
+    #p2 {
+        width: 80%;
+        left: 5%;
+    }
 }
