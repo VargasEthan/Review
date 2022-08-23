@@ -111,7 +111,13 @@ nav li {
 }
 
 
-
+.section3 {
+    background-image: url(images/baseball.png);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
 
 
 
@@ -134,15 +140,16 @@ nav li {
     .header {
         width: 80%;
     }
-    rgb(214, 213, 196)
+  
     #p1 {
         width: 80%;
-        background-color: ;
+        left: 10%;
+        background-color:  rgb(214, 213, 196) ;
         border: 2px solid rgb(205, 85, 67);
     }
 
     #p2 {
         width: 80%;
-        left: 5%;
+        left: 10%;
     }
 }
