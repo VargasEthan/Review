@@ -40,20 +40,20 @@ nav li {
 }
 
 .section1 {
-    background-image: url(images/football.png);
+    background-image: url(images/download1.webp);
 }
 
 .section2 {
-    background-image: url(images/basketball.png);
+    background-image: url(images/download2.png);
     background-attachment: fixed;
 }
 
 .section3 {
-    background-image: url(images/baseball.png);
+    background-image: url(images/download3.webp);
 }
 
 .section4 {
-    background-image: url(images/soccor.png);
+    background-image: url(images/download4.png);
     background-attachment: fixed;
 }
 
@@ -73,7 +73,7 @@ nav li {
 }
 
 .intro{
-    color: orange;
+    color: lightblue;
     background-color: rgba(0, 0, 0, 0.507);
     width: 48%;
     text-align: center;
@@ -93,16 +93,20 @@ nav li {
 }
 
 #p1 {
-    color: rgb(214, 213, 196);
+    color: black;
+    background-color: rgba(255, 255, 255, 0.603);
+    border: 2px solid black;
     position: relative;
     top: 100px;
     left: 5%;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 #p2 {
-    color:rgb(205, 85, 67);
-    background-color: rgba(214, 213, 196, 0.651);
-    border: 2px solid rgb(205, 85, 67);
+    color:lightgrey;
+    background-color: rgba(214, 213, 196, 0.075);
+    border: 2px solid lightgrey;
     position: relative;
     top: 300px;
     left: 60%;
@@ -112,15 +116,32 @@ nav li {
 
 
 .section3 {
-    background-image: url(images/baseball.png);
+    background-image: url(images/download3.webp);
     display: flex;
     align-items: center;
     flex-direction: column;
     
 }
 
+.section3 h1 {
+    text-align: center;
+    color: white;
+}
 
+.section3 p {
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+}
 
+.section3 input {
+    height: 30px;
+    border-color: transparent;
+}
+
+.input {
+    color: rbga(195, 232, 253);
+}
 
 
 
