@@ -125,7 +125,10 @@ nav li {
 
 .section3 h1 {
     text-align: center;
-    color: white;
+    color: lightblue;
+    background-color: rgba(255, 255, 255, 0.637);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .section3 p {
@@ -137,11 +140,29 @@ nav li {
 .section3 input {
     height: 30px;
     border-color: transparent;
+    color: lightblue;
 }
 
-.input {
-    color: rbga(195, 232, 253);
+.section3 input:focus {
+    outline: 2px solid lightblue; 
 }
+
+.section3 input::placeholder {
+    text-align: center;
+    color: lightblue;
+    font-style: italic;
+}
+
+#button {
+    color: lightblue;
+    font-size: 20px;
+    padding: 10px;
+    border-color: transparent;
+    background-color: black;
+    font-style: italic;
+    cursor: pointer;
+}
+
 
 
 
