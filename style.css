@@ -52,10 +52,6 @@ nav li {
     background-image: url(images/download3.webp);
 }
 
-.section4 {
-    background-image: url(images/download4.png);
-    background-attachment: fixed;
-}
 
 .header {
     color: #fff;
@@ -168,8 +164,72 @@ nav li {
 }
 
 .section4 {
-
+    background-image: url(images/download4.png);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.part2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section4 h1 {
+    color: rgb(111, 0, 255);
+    position: relative;
+    top: -100px;
+}
+
+#letter {
+    position: relative;
+   top: -50px; 
+    width: 80px;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(158, 74, 184);
+    text-align: center;
+}
+
+#letter:focus {
+    outline: 2px solid whitesmoke;
+}
+
+#submit {
+    top: -30px;
+    position: relative;
+    color: rgb(158, 74, 184);
+    border-color: transparent;
+    font-size: 22px;
+    padding: 10px 20px;
+    background-color: rgb(16, 20, 33);
+    cursor: pointer;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 200px;
+}
+
+#word {
+    font-size: 35px;
+}
+
+#hint {
+    position: relative;
+    top: -50px;
+    color: rgb(41, 135, 228);
+    font-size: 24px;
+    font-weight: 300;
+}
+
 
 
 
